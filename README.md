@@ -16,32 +16,42 @@ O sistema:
 
 ## Estrutura
 
+```
 automacao_prospeccao/
 │
 ├── main.py
-├── data
-├    └ leads.csv
-└── .env
+├── data/
+├    └ leads.csv (não versionado)
+└── .env (não versionado)
+```
 
 ## Configuração
 
 1. Clone o repositório
+
 2. Instale as dependências:
 
-pip install python-dotenv
+`pip install python-dotenv`
 
-3. Crie um arquivo .env com:
+3. Crie um arquivo `.env` com:
 
-EMAIL_REMETENTE=seuemail@gmail.com
-SENHA_EMAIL=sua_senha_de_app -> (pode ser sua senha mas é recomendado, por segurança, criar uma senha de app na sua conta gmail)
+`EMAIL_REMETENTE=seuemail@gmail.com`
 
-4. Renomeie o arquivo "exemplo_leads.csv" para "leads.csv" e siga a estrutura:
+`SENHA_EMAIL=sua_senha_de_app`
 
-nome,email,empresa,enviado
+`Obs`: É possível usar sua a senha do Gmail, mas é recomendado, por segurança, criar uma senha de app nas configurações de sua conta Gmail.
+
+4. Renomeie o arquivo `exemplo_leads.csv` para `leads.csv` e siga a estrutura:
+
+`Obs`: É possível usar sua a senha do gmail, mas é recomendado, por segurança, criar uma senha de app nas configurações de sua conta gmail.
+
+4. Renomeie o arquivo `exemplo_leads.csv` para `leads.csv` e siga a estrutura:
+
+`nome,email,empresa,enviado`
 
 ## Executar o projeto
 
-python main.py
+`python main.py`
 
 ## Melhorias futuras
 
