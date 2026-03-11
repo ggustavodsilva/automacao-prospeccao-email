@@ -1,3 +1,3 @@
-nome,email,empresa,enviado
-João,joao@email.com,Empresa X,nao
-Maria,maria@email.com,Empresa Y,nao
+empresa,email,enviado
+Empresa X,joao@email.com,nao
+Empresa Y,maria@email.com,nao
